@@ -1,0 +1,36 @@
+
+This code is for the Capital Bikeshare SMS service to be deployed
+through Google App Engine. The front-end of the SMS service uses
+TextMarks, using the CAPBIKE keyword. TextMarks will make a callback
+to:
+
+     https://cabisms.appspot.com/?address=\0
+
+where \0 is the user's input address.
+
+More information here:
+    http://code4country.pbworks.com/w/page/46037822/Capital%20Bikeshare%20SMS
+
+License: 
+
+    This Capital Bikeshare SMS code is free software: you can
+    redistribute it and/or modify it under the terms of the GNU
+    General Public License as published by the Free Software
+    Foundation, either version 3 of the License, or (at your option)
+    any later version.
+
+    The Capital Bikeshare SMS code is distributed in the hope that it
+    will be useful, but WITHOUT ANY WARRANTY; without even the implied
+    warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with the RECAP Firefox Extension.  If not, see: 
+    http://www.gnu.org/licenses/
+
+Author:
+
+    Harlan Yu
+    harlanyu@cs.princeton.edu
+
+September 25, 2011
