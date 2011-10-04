@@ -107,7 +107,15 @@ def find_stations(lat_in, long_in):
     n = 1
     for station in station_list[0:2]:
         distance, id, name, bikes, docks = station
-        outstr += "%d. %s. %d bikes, %d docks\n" % (n, name, bikes, docks)
+        outstr += "%d. %s. " % (n, name)
+        if bikes == 1:
+            outstr += "%d bike, " % (bikes)
+        else:
+            outstr += "%d bikes, " % (bikes)
+        if docks == 1:
+            outstr += "%d dock.\n" % (docks)
+        else:
+            outstr += "%d docks.\n" % (docks)
         n += 1
     outstr = outstr[:-1]
 
